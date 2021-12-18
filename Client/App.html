@@ -4,27 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+
     <title>L'aventure en vaut la peine | Booki</title>
 
-    <!-- import Components -->
-    <link rel="import" href="./Components/Navbar.html" />
-    <link rel="import" href="./Components/Search.html" />
-    <link rel="import" href="./Components/Footer.html" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/7d73c0060b.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <!-- CustomReset -->
+    <!-- Custom Reset -->
     <link rel="stylesheet" href="./Variables/CustomReset.css" />
   </head>
 
   <body>
-    <!-- import Navbar -->
+    <!-- include Navbar -->
     <div data-include-path="./Components/Navbar.html"></div>
 
-    <!-- import Home -->
+    <!-- include Search -->
     <div data-include-path="./Components/Search.html"></div>
 
-    <!-- import Footer -->
+    <!-- include Filters -->
+    <div data-include-path="./Components/Filters.html"></div>
+
+    <!-- include Logement -->
+    <div data-include-path="./Components/Logement.html"></div>
+
+    <!-- include Activite -->
+    <div data-include-path="./Components/Activites.html"></div>
+
+    <!-- include Footer -->
     <div data-include-path="./Components/Footer.html"></div>
 
+    <!-- include Components -->
     <!-- https://www.w3schools.com/howto/howto_html_include.asp -->
     <script>
       window.addEventListener("load", function () {
