@@ -1,0 +1,14 @@
+:root {
+  --ColorBlack: #000000;
+  --ColorWhite: #ffffff;
+  --ColorBlue: #0065fc;
+  --ColorGray: #f2f2f2;
+
+  --FontBig: 1.125rem;
+  --FontMiddle: 1rem;
+  --FontSmall: 0.875rem;
+
+  --LineHeightBig: 1.969rem;
+  --LineHeightMiddle: 1.75rem;
+  --LineHeightSmall: 1.531rem;
+}
