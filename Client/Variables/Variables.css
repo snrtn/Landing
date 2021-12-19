@@ -3,12 +3,24 @@
   --ColorWhite: #ffffff;
   --ColorBlue: #0065fc;
   --ColorGray: #f2f2f2;
+  --ColorShadow: #e7e7e7;
 
+  --FontUtra: 1.5rem;
   --FontBig: 1.125rem;
   --FontMiddle: 1rem;
   --FontSmall: 0.875rem;
 
+  --LineHeightUtra: 2.625rem;
   --LineHeightBig: 1.969rem;
   --LineHeightMiddle: 1.75rem;
   --LineHeightSmall: 1.531rem;
+
+  --star-size: 0.719rem;
+  --star-color: #d9d9d9;
+  --star-background: #0065fc;
+
+  --mini-icon: 0.519rem;
+
+  /* ########## EM pour mobile ########## */
+  /* https://zellwk.com/blog/media-query-units/ */
 }

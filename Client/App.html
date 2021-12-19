@@ -7,56 +7,54 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 
-    <title>L'aventure en vaut la peine | Booki</title>
-
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/7d73c0060b.js"
       crossorigin="anonymous"
     ></script>
 
+    <title>L'aventure en vaut la peine | Booki</title>
+
     <!-- Custom Reset -->
     <link rel="stylesheet" href="./Variables/CustomReset.css" />
+
+    <!-- include Components -->
+    <script src="./include.js" defer></script>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./Styles/header.css" />
+    <link rel="stylesheet" href="./Styles/search.css" />
+    <link rel="stylesheet" href="./Styles/filters.css" />
+    <link rel="stylesheet" href="./Styles/hebergements.css" />
+    <link rel="stylesheet" href="./Styles/activites.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+
+    <style>
+      #app-container {
+        margin: 0px 40px;
+      }
+    </style>
   </head>
 
   <body>
-    <!-- include Navbar -->
-    <div data-include-path="./Components/Navbar.html"></div>
+    <div id="app-container">
+      <!-- include Navbar -->
+      <div data-include-path="./Components/Header.html"></div>
 
-    <!-- include Search -->
-    <div data-include-path="./Components/Search.html"></div>
+      <!-- include Search -->
+      <div data-include-path="./Components/Search.html"></div>
 
-    <!-- include Filters -->
-    <div data-include-path="./Components/Filters.html"></div>
+      <!-- include Filters -->
+      <div data-include-path="./Components/Filters.html"></div>
 
-    <!-- include Logement -->
-    <div data-include-path="./Components/Logement.html"></div>
+      <!-- include Logement -->
+      <div data-include-path="./Components/Hebergements.html"></div>
 
-    <!-- include Activite -->
-    <div data-include-path="./Components/Activites.html"></div>
+      <!-- include Activite -->
+      <div data-include-path="./Components/Activites.html"></div>
 
-    <!-- include Footer -->
-    <div data-include-path="./Components/Footer.html"></div>
-
-    <!-- include Components -->
-    <!-- https://www.w3schools.com/howto/howto_html_include.asp -->
-    <script>
-      window.addEventListener("load", function () {
-        var allElements = document.getElementsByTagName("*");
-        Array.prototype.forEach.call(allElements, function (el) {
-          var includePath = el.dataset.includePath;
-          if (includePath) {
-            var xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function () {
-              if (this.readyState == 4 && this.status == 200) {
-                el.outerHTML = this.responseText;
-              }
-            };
-            xhttp.open("GET", includePath, true);
-            xhttp.send();
-          }
-        });
-      });
-    </script>
+      <!-- include Footer -->
+      <div data-include-path="./Components/Footer.html"></div>
+    </div>
   </body>
 </html>

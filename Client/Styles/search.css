@@ -1,1 +1,90 @@
 @import "../Variables/Variables.css";
+
+.search-info {
+  height: 85px;
+}
+
+.search-title {
+  height: 100%;
+
+  font-size: var(--FontUtra);
+  line-height: var(--LineHeightUtra);
+  font-weight: 700;
+}
+
+.search-desc {
+  font-size: var(--FontBig);
+  line-height: var(--LineHeightBig);
+  font-weight: 500;
+}
+
+.search-ui {
+  display: flex;
+
+  width: 460px;
+  height: 55px;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+  background-color: var(--ColorGray);
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  font-size: var(--FontBig);
+  color: var(--ColorBlack);
+}
+
+.search-ui input[type="submit"] {
+  flex: 2.5;
+
+  background-color: var(--ColorBlue);
+  color: var(--ColorWhite);
+
+  font-size: var(--FontBig);
+  font-weight: var(--LineHeightBig);
+  font-weight: 600;
+
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-ui input[type="search"] {
+  flex: 4;
+
+  box-sizing: border-box;
+
+  padding: 8px 12px;
+  padding-left: 20px;
+  border: 2px solid var(--ColorGray);
+
+  font-size: var(--FontBig);
+  font-weight: var(--LineHeightBig);
+  font-weight: 600;
+
+  color: var(--ColorBlack);
+
+  transition: all 0.5s;
+}
+
+.search-ui input[type="search"]:hover {
+  border: 3px solid var(--ColorBlue);
+}
+
+.search-ui input[type="search"]::placeholder {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.search-ui input[type="search"]:focus::placeholder {
+  opacity: 0;
+  visibility: hidden;
+}
