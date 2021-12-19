@@ -46,27 +46,27 @@
 .hebergements-article1 {
   flex: 6;
   height: 680px;
-  margin-right: 10px;
-  padding: 30px 40px;
+  margin-right: 15px;
+  padding: 30px 30px;
   background-color: var(--ColorGray);
   border-radius: 20px;
 }
 
 .article1-itemContainer {
-  height: 480px;
+  height: 490px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   overflow: hidden;
-  padding: 5px;
-  gap: 35px;
+  padding: 5px 10px;
+  gap: 30px;
   margin-left: -2px;
 }
 
 .article1-item {
   border-radius: 20px;
   background-color: var(--ColorWhite);
-  width: 300px;
+  width: 265px;
   height: 220px;
   box-shadow: 0px 0px 5px 0px var(--ColorShadow);
   cursor: pointer;
@@ -74,7 +74,7 @@
 }
 
 .article1-item:hover {
-  transform: scale(1.02);
+  transform: scale(1.025);
 }
 
 .article1-itemImage {
@@ -82,7 +82,7 @@
   background-position: center;
   background-size: cover;
   margin: 5px;
-  width: 290px;
+  width: 255px;
   height: 130px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -136,7 +136,7 @@
 }
 
 .hebergements-article1 button {
-  margin-top: 35px;
+  margin-top: 20px;
   margin-left: 10px;
   font-size: var(--FontBig);
   font-weight: 700;
@@ -204,7 +204,7 @@
 }
 
 .article2-item:hover {
-  transform: scale(1.02);
+  transform: scale(1.025);
 }
 
 .article2-itemImage {
