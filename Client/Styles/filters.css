@@ -1,7 +1,15 @@
 @import "../Variables/Variables.css";
 
+.filters-section-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .filters {
   display: flex;
+  width: var(--MainWidth);
   height: 50px;
   justify-content: left;
   align-items: center;
@@ -35,7 +43,7 @@
 
 .icons li input[type="checkbox"]:checked + div {
   border: none;
-  border: 2px solid #d9d9d9;
+  border: 2px solid #deebff;
   background-color: var(--ColorBlue);
   color: var(--ColorWhite);
 }
@@ -56,7 +64,7 @@
 }
 
 .icons li div i {
-  width: 75px;
+  width: 70px;
   height: 50px;
 
   margin-left: -2px;

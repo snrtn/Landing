@@ -7,20 +7,24 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 
+    <title>L'aventure en vaut la peine | Booki</title>
+
+    <!-- CustomReset -->
+    <link rel="stylesheet" href="./Variables/CustomReset.css" />
+
+    <!-- Variables -->
+    <link rel="stylesheet" href="./Variables/Variables.css" />
+
+    <!-- includeComponents -->
+    <script src="./include.js" defer></script>
+
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/7d73c0060b.js"
       crossorigin="anonymous"
     ></script>
 
-    <title>L'aventure en vaut la peine | Booki</title>
-
-    <!-- Custom Reset -->
-    <link rel="stylesheet" href="./Variables/CustomReset.css" />
-
-    <!-- include Components -->
-    <script src="./include.js" defer></script>
-
+    <!-- Quand créer plusieurs pages, mettre chaque page -->
     <!-- styles -->
     <link rel="stylesheet" href="./Styles/header.css" />
     <link rel="stylesheet" href="./Styles/search.css" />
@@ -31,28 +35,45 @@
 
     <style>
       #app-container {
-        margin: 0px 100px;
+        width: 100%;
+      }
+
+      /* ########## SlideBar ########## */
+      body::-webkit-scrollbar {
+        width: 12px;
+      }
+
+      body::-webkit-scrollbar-thumb {
+        background-color: #333333;
+        border: none;
+      }
+
+      body::-webkit-scrollbar-track {
+        background-color: lightgray;
+        border: none;
       }
     </style>
   </head>
 
   <body>
     <div id="app-container">
+      <!-- Quand créer plusieurs pages, changer Header. -->
       <!-- include Navbar -->
       <div data-include-path="./Components/Header.html"></div>
 
       <!-- include Search -->
-      <div data-include-path="./Components/Search.html"></div>
+      <div data-include-path="./Home/Search.html"></div>
 
       <!-- include Filters -->
-      <div data-include-path="./Components/Filters.html"></div>
+      <div data-include-path="./Home/Filters.html"></div>
 
       <!-- include Logement -->
-      <div data-include-path="./Components/Hebergements.html"></div>
+      <div data-include-path="./Home/Hebergements.html"></div>
 
       <!-- include Activite -->
-      <div data-include-path="./Components/Activites.html"></div>
+      <div data-include-path="./Home/Activites.html"></div>
 
+      <!-- Quand créer plusieurs pages, changer Footer. -->
       <!-- include Footer -->
       <div data-include-path="./Components/Footer.html"></div>
     </div>

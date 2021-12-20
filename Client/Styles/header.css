@@ -1,11 +1,21 @@
 @import "../Variables/Variables.css";
 
-nav {
+header {
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 1490px;
   height: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  background-color: var(--ColorWhite);
+  z-index: 99;
+  padding-left: 10px;
 }
 
 .logo-img {
@@ -22,7 +32,7 @@ nav {
 .gnb {
   display: flex;
   justify-content: space-around;
-  margin-right: 15px;
+  margin-right: 30px;
 }
 
 .gnb li {

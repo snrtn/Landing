@@ -1,4 +1,6 @@
 :root {
+  --MainWidth: 1450px;
+
   --ColorBlack: #000000;
   --ColorWhite: #ffffff;
   --ColorBlue: #0065fc;

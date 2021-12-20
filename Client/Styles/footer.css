@@ -1,1 +1,31 @@
 @import "../Variables/Variables.css";
+
+.footer {
+  width: 100%;
+  height: 220px;
+  background-color: var(--ColorGray);
+  display: flex;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-articleContainer {
+  width: 483px;
+  padding: 50px 0px;
+}
+
+.footer-itemTitle {
+  font-size: var(--FontBig);
+  font-weight: 700;
+  line-height: var(--LineHeighBig);
+}
+
+.footer-itemDesc {
+  font-size: var(--FontMiddle);
+  font-weight: 400;
+  line-height: var(--LineHeightMiddle);
+}

@@ -1,1 +1,125 @@
 @import "../Variables/Variables.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.activites-section-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: -30px;
+}
+
+.activites {
+  width: var(--MainWidth);
+  height: 650px;
+}
+
+.activites-info {
+}
+
+.activites-info h1 {
+  font-size: var(--FontUtra);
+  font-weight: 700;
+  line-height: var(--LineHeightUtra);
+}
+
+.activites-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article-itemContainer {
+  width: 325px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.article-item {
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 2px var(--ColorShadow);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.article-item:hover {
+  transform: scale(1.025);
+}
+
+.article-itemContainer:nth-child(2) .article-item:nth-child(2) {
+  margin-top: 40px;
+}
+.article-itemContainer:nth-child(4) .article-item:nth-child(2) {
+  margin-top: 40px;
+}
+
+.article-itemImage {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-infoContainer {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.article-itemTitle {
+  font-size: var(--FontMiddle);
+  font-weight: 700;
+  line-height: var(--LineHeightMiddle);
+}
+
+.article-itemContainer:nth-child(1) .article-itemImage {
+  background-image: url(../images/Activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article-itemContainer:nth-child(2)
+  .article-item:nth-child(1)
+  .article-itemImage {
+  background-image: url(../images/Activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+  height: 225px;
+}
+.article-itemContainer:nth-child(2)
+  .article-item:nth-child(2)
+  .article-itemImage {
+  background-image: url(../images/Activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+
+  height: 125px;
+}
+
+.article-itemContainer:nth-child(3) .article-itemImage {
+  background-image: url(../images/Activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+}
+
+.article-itemContainer:nth-child(4)
+  .article-item:nth-child(1)
+  .article-itemImage {
+  background-image: url(../images/Activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+
+  height: 150px;
+}
+.article-itemContainer:nth-child(4)
+  .article-item:nth-child(2)
+  .article-itemImage {
+  background-image: url(../images/Activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+  height: 200px;
+}

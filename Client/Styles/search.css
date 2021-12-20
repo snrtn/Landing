@@ -1,12 +1,25 @@
 @import "../Variables/Variables.css";
 
+.search-section-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  width: var(--MainWidth);
+  margin-top: 100px;
+  border: 1px solid transparent;
+}
+
 .search-info {
+  margin-top: 20px;
   height: 85px;
 }
 
 .search-title {
   height: 100%;
-
   font-size: var(--FontUtra);
   line-height: var(--LineHeightUtra);
   font-weight: 700;
