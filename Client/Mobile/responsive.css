@@ -14,6 +14,7 @@
   /* ########## header ########## */
   header {
     height: 135px;
+    padding: 0px 0px;
   }
   nav {
     width: 100%;
@@ -313,6 +314,7 @@
 
   .article-itemContainer {
     width: 100%;
+    padding: 0px 0px 0px 0px;
   }
 
   .article-itemImage {

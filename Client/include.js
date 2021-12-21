@@ -1,7 +1,7 @@
 // https://www.w3schools.com/howto/howto_html_include.asp
 
-window.addEventListener("load", function () {
-  var allElements = document.getElementsByTagName("*");
+window.addEventListener('load', function () {
+  var allElements = document.getElementsByTagName('*');
   Array.prototype.forEach.call(allElements, function (el) {
     var includePath = el.dataset.includePath;
     if (includePath) {
@@ -11,7 +11,7 @@ window.addEventListener("load", function () {
           el.outerHTML = this.responseText;
         }
       };
-      xhttp.open("GET", includePath, true);
+      xhttp.open('GET', includePath, true);
       xhttp.send();
     }
   });

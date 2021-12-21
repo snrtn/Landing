@@ -35,6 +35,7 @@ html {
   flex-direction: column;
   justify-content: space-between;
   padding: 0px 15px 0px 15px;
+  /* border: 1px solid #000; */
 }
 
 .article-item {
@@ -49,16 +50,16 @@ html {
 }
 
 .article-itemContainer:nth-child(2) .article-item:last-child {
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .article-itemContainer:nth-child(4) .article-item:last-child {
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 .article-itemImage {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  height: 450px;
+  height: 430px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,14 +94,14 @@ html {
   .article-item:nth-child(1)
   .article-itemImage {
   background-image: url(../images/Activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
-  height: 225px;
+  height: 215px;
 }
 .article-itemContainer:nth-child(2)
   .article-item:nth-child(2)
   .article-itemImage {
   background-image: url(../images/Activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
 
-  height: 125px;
+  height: 120px;
 }
 
 .article-itemContainer:nth-child(3) .article-itemImage {
@@ -112,11 +113,11 @@ html {
   .article-itemImage {
   background-image: url(../images/Activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg);
 
-  height: 150px;
+  height: 140px;
 }
 .article-itemContainer:nth-child(4)
   .article-item:nth-child(2)
   .article-itemImage {
   background-image: url(../images/Activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
-  height: 200px;
+  height: 195px;
 }
