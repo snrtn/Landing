@@ -1,5 +1,6 @@
 @import '../Variables/Variables.css';
 
+/* ########## La version mobile et Tablette doit être séparée ########## */
 @media all and (min-width: 280px) and (max-width: 1280px) {
   #app-container {
     width: auto !important;
