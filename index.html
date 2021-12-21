@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./Client/images/favicon.ico" />
+
+    <title>L'aventure en vaut la peine | Booki</title>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/7d73c0060b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CustomReset -->
+    <link rel="stylesheet" href="./Client/Variables/CustomReset.css" />
+
+    <!-- Variables -->
+    <link rel="stylesheet" href=Variables/Variables.css" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./Client/index.css" />
+    <link rel="stylesheet" href="./Client/Styles/header.css" />
+    <link rel="stylesheet" href="./Client/Styles/search.css" />
+    <link rel="stylesheet" href="./Client/Styles/filters.css" />
+    <link rel="stylesheet" href="./Client/Styles/hebergements.css" />
+    <link rel="stylesheet" href="./Client/Styles/activites.css" />
+    <link rel="stylesheet" href="./Client/Styles/footer.css" />
+
+    <!-- Mobile -->
+    <link rel="stylesheet" href="./Client/Mobile/responsive.css" />
+
+    <!-- includeComponents -->
+    <script src="./Client/include.js" defer></script>
+  </head>
+
+  <body>
+    <div id="app-container">
+      <!-- include Navbar -->
+      <div data-include-path="./Client/Components/Header.html"></div>
+
+      <!-- include Search -->
+      <div data-include-path="./Client/Home/Search.html"></div>
+
+      <!-- include Filters -->
+      <div data-include-path="./Client/Home/Filters.html"></div>
+
+      <!-- include Logement -->
+      <div data-include-path="./Client/Home/Hebergements.html"></div>
+
+      <!-- include Activite -->
+      <div data-include-path="./Client/Home/Activites.html"></div>
+
+      <!-- include Footer -->
+      <div data-include-path="./Client/Components/Footer.html"></div>
+    </div>
+  </body>
+</html>
