@@ -1,38 +1,35 @@
-@import "../Variables/Variables.css";
+@import '../Variables/Variables.css';
 
 header {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: 0px 50px;
 }
 
 nav {
-  width: 1490px;
+  width: var(--MainWidth);
   height: 130px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
   background-color: var(--ColorWhite);
-  z-index: 99;
-  padding-left: 10px;
+  padding: 0px 20px;
 }
 
 .logo-img {
-  background-image: url("../images/Logo/Booki.png");
+  background-image: url('../images/Logo/Booki.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100px;
   height: 45px;
   margin-top: 5px;
-  margin-left: 25px;
 }
 
 .gnb {
   display: flex;
   justify-content: space-around;
-  margin-right: 30px;
 }
 
 .gnb li {
@@ -47,7 +44,7 @@ nav {
   display: inline-block;
   width: 100%;
   font-weight: 500;
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 
 .gnb li a:hover {
@@ -55,7 +52,7 @@ nav {
 }
 
 .gnb li a:before {
-  content: "";
+  content: '';
   position: absolute;
   background-color: var(--ColorBlue);
   height: 2px;

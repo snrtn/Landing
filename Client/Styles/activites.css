@@ -1,4 +1,4 @@
-@import "../Variables/Variables.css";
+@import '../Variables/Variables.css';
 
 html {
   scroll-behavior: smooth;
@@ -10,7 +10,6 @@ html {
   display: flex;
   justify-content: center;
   margin-top: 60px;
-  margin-bottom: -30px;
 }
 
 .activites {
@@ -30,11 +29,12 @@ html {
 }
 
 .article-itemContainer {
-  width: 325px;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0px 15px 0px 15px;
 }
 
 .article-item {
@@ -48,11 +48,11 @@ html {
   transform: scale(1.025);
 }
 
-.article-itemContainer:nth-child(2) .article-item:nth-child(2) {
-  margin-top: 40px;
+.article-itemContainer:nth-child(2) .article-item:last-child {
+  margin-top: 35px;
 }
-.article-itemContainer:nth-child(4) .article-item:nth-child(2) {
-  margin-top: 40px;
+.article-itemContainer:nth-child(4) .article-item:last-child {
+  margin-top: 35px;
 }
 
 .article-itemImage {
@@ -66,7 +66,7 @@ html {
 
 .article-infoContainer {
   width: 100%;
-  height: 60px;
+  height: 65px;
   background-color: white;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;

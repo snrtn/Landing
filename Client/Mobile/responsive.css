@@ -360,3 +360,40 @@
     padding: 10px 20px;
   }
 }
+
+@media screen and (min-width: 1390px) and (max-width: 1480px) {
+  .article1-item {
+    width: 245px;
+    height: 200px;
+  }
+
+  .article1-itemImage {
+    width: 230px;
+    height: 110px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1390px) {
+  .hebergements-article1 {
+    padding: 0px 0px;
+  }
+
+  .hebergements-article1 h1 {
+    margin-left: 30px !important;
+    margin-top: 30px !important;
+  }
+
+  .article1-itemContainer {
+    padding: 30px 30px;
+  }
+
+  .article1-item {
+    width: 215px;
+    height: 200px;
+  }
+
+  .article1-itemImage {
+    width: 205px;
+    height: 110px;
+  }
+}

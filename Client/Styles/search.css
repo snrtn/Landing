@@ -1,4 +1,4 @@
-@import "../Variables/Variables.css";
+@import '../Variables/Variables.css';
 
 .search-section-container {
   width: 100%;
@@ -9,12 +9,10 @@
 
 .search {
   width: var(--MainWidth);
-  margin-top: 100px;
   border: 1px solid transparent;
 }
 
 .search-info {
-  margin-top: 20px;
   height: 85px;
 }
 
@@ -52,7 +50,7 @@
   color: var(--ColorBlack);
 }
 
-.search-ui input[type="submit"] {
+.search-ui input[type='submit'] {
   flex: 2.5;
 
   background-color: var(--ColorBlue);
@@ -75,7 +73,7 @@
   display: none;
 }
 
-.search-ui input[type="search"] {
+.search-ui input[type='search'] {
   flex: 4;
 
   box-sizing: border-box;
@@ -93,16 +91,16 @@
   transition: all 0.5s;
 }
 
-.search-ui input[type="search"]:hover {
+.search-ui input[type='search']:hover {
   border: 3px solid var(--ColorBlue);
 }
 
-.search-ui input[type="search"]::placeholder {
+.search-ui input[type='search']::placeholder {
   opacity: 1;
   transition: 0.3s;
 }
 
-.search-ui input[type="search"]:focus::placeholder {
+.search-ui input[type='search']:focus::placeholder {
   opacity: 0;
   visibility: hidden;
 }

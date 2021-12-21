@@ -1,4 +1,4 @@
-@import "../Variables/Variables.css";
+@import '../Variables/Variables.css';
 
 html {
   scroll-behavior: smooth;
@@ -136,7 +136,7 @@ html {
 }
 
 .article1-stars::before {
-  content: "⭐⭐⭐⭐⭐";
+  content: '⭐⭐⭐⭐⭐';
   letter-spacing: -2px;
   background: linear-gradient(
     90deg,
@@ -156,22 +156,22 @@ html {
 }
 
 .article1-item:nth-of-type(1) .article1-itemImage {
-  background-image: url("../images/Logement/3_medium/Auberge-La-Cannebiere.jpg");
+  background-image: url('../images/Logement/3_medium/Auberge-La-Cannebiere.jpg');
 }
 .article1-item:nth-of-type(2) .article1-itemImage {
-  background-image: url("../images/Logement/3_medium/Hotel-du-port.jpg");
+  background-image: url('../images/Logement/3_medium/Hotel-du-port.jpg');
 }
 .article1-item:nth-of-type(3) .article1-itemImage {
-  background-image: url("../images/Logement/3_medium/Hotel-les-mouettes.jpg");
+  background-image: url('../images/Logement/3_medium/Hotel-les-mouettes.jpg');
 }
 .article1-item:nth-of-type(4) .article1-itemImage {
-  background-image: url("../images/Logement/3_medium/Hotel-de-la-mer.jpg");
+  background-image: url('../images/Logement/3_medium/Hotel-de-la-mer.jpg');
 }
 .article1-item:nth-of-type(5) .article1-itemImage {
-  background-image: url("../images/Logement/3_medium/Auberge-le-panier.jpg");
+  background-image: url('../images/Logement/3_medium/Auberge-le-panier.jpg');
 }
 .article1-item:nth-of-type(6) .article1-itemImage {
-  background-image: url("../images/Logement/3_medium/Hotel-chez-Amina.jpg");
+  background-image: url('../images/Logement/3_medium/Hotel-chez-Amina.jpg');
 }
 
 /* ########## article2 ########## */
@@ -270,7 +270,7 @@ html {
 }
 
 .article2-stars::before {
-  content: "⭐⭐⭐⭐⭐";
+  content: '⭐⭐⭐⭐⭐';
   letter-spacing: -2px;
   background: linear-gradient(
     90deg,
@@ -282,11 +282,11 @@ html {
 }
 
 .article2-item:nth-of-type(1) .article2-itemImage {
-  background-image: url("../images/Logement/4_small/Hotel-le-soleill-du-matin.jpg");
+  background-image: url('../images/Logement/4_small/Hotel-le-soleill-du-matin.jpg');
 }
 .article2-item:nth-of-type(2) .article2-itemImage {
   background-image: url("../images/Logement/4_small/Au-Coeur-de-l'eau-Chambres-d'hotes.jpg");
 }
 .article2-item:nth-of-type(3) .article2-itemImage {
-  background-image: url("../images/Logement/4_small/Hotel-Tout-blue-et-blanc.jpg");
+  background-image: url('../images/Logement/4_small/Hotel-Tout-blue-et-blanc.jpg');
 }
