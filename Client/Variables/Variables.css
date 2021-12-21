@@ -25,4 +25,14 @@
 
   /* ########## EM pour mobile ########## */
   /* https://zellwk.com/blog/media-query-units/ */
+  --MFontUtra: 1.714em;
+  --MFontBig: 1.285em;
+  --MFontMiddle: 1.142em;
+  --MFontSmall: 1em;
+  --MFontSSmall: 0.741em;
+
+  --MLineHeightUtra: 3em;
+  --MLineHeightBig: 2em;
+  --MLineHeightMiddle: 1.75em;
+  --MLineHeightSmall: 1.749em;
 }
