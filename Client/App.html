@@ -9,23 +9,20 @@
 
     <title>L'aventure en vaut la peine | Booki</title>
 
-    <!-- CustomReset -->
-    <link rel="stylesheet" href="./Variables/CustomReset.css" />
-
-    <!-- Variables -->
-    <link rel="stylesheet" href="./Variables/Variables.css" />
-
-    <!-- includeComponents -->
-    <script src="./include.js" defer></script>
-
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/7d73c0060b.js"
       crossorigin="anonymous"
     ></script>
 
-    <!-- Quand créer plusieurs pages, mettre chaque page -->
+    <!-- CustomReset -->
+    <link rel="stylesheet" href="./Variables/CustomReset.css" />
+
+    <!-- Variables -->
+    <link rel="stylesheet" href="./Variables/Variables.css" />
+
     <!-- styles -->
+    <link rel="stylesheet" href="./app.css" />
     <link rel="stylesheet" href="./Styles/header.css" />
     <link rel="stylesheet" href="./Styles/search.css" />
     <link rel="stylesheet" href="./Styles/filters.css" />
@@ -33,31 +30,15 @@
     <link rel="stylesheet" href="./Styles/activites.css" />
     <link rel="stylesheet" href="./Styles/footer.css" />
 
-    <style>
-      #app-container {
-        width: 100%;
-      }
+    <!-- Mobile -->
+    <link rel="stylesheet" href="./Mobile/responsive.css" />
 
-      /* ########## SlideBar ########## */
-      body::-webkit-scrollbar {
-        width: 12px;
-      }
-
-      body::-webkit-scrollbar-thumb {
-        background-color: #333333;
-        border: none;
-      }
-
-      body::-webkit-scrollbar-track {
-        background-color: lightgray;
-        border: none;
-      }
-    </style>
+    <!-- includeComponents -->
+    <script src="./include.js" defer></script>
   </head>
 
   <body>
     <div id="app-container">
-      <!-- Quand créer plusieurs pages, changer Header. -->
       <!-- include Navbar -->
       <div data-include-path="./Components/Header.html"></div>
 
@@ -73,7 +54,6 @@
       <!-- include Activite -->
       <div data-include-path="./Home/Activites.html"></div>
 
-      <!-- Quand créer plusieurs pages, changer Footer. -->
       <!-- include Footer -->
       <div data-include-path="./Components/Footer.html"></div>
     </div>
