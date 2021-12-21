@@ -1,4 +1,4 @@
-@import "../Variables/Variables.css";
+@import '../Variables/Variables.css';
 
 .filters-section-container {
   width: 100%;
@@ -37,11 +37,11 @@
   display: flex;
 }
 
-.icons li input[type="checkbox"] {
+.icons li input[type='checkbox'] {
   display: none;
 }
 
-.icons li input[type="checkbox"]:checked + div {
+.icons li input[type='checkbox']:checked + div {
   border: none;
   border: 2px solid #deebff;
   background-color: var(--ColorBlue);
@@ -64,8 +64,9 @@
 }
 
 .icons li div i {
-  width: 70px;
+  width: 50px;
   height: 50px;
+  flex-shrink: 0;
 
   margin-left: -2px;
   border-radius: 50%;
