@@ -104,7 +104,26 @@
     border-bottom-left-radius: 15px;
   }
 
-  .search-ui input[type='submit'] {
+  .btnSearch {
+    flex: 1;
+
+    background-color: var(--ColorWhite);
+    color: var(--ColorWhite);
+
+    font-size: var(--FontBig);
+    font-weight: var(--LineHeightBig);
+    font-weight: 600;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: right;
+  }
+
+  .btnSearch span {
     display: none;
   }
 
@@ -117,6 +136,8 @@
     background-color: var(--ColorBlue);
     color: var(--ColorWhite);
     border-radius: 15px;
+    float: right;
+    margin-right: -10px;
   }
 
   .search-ui input[type='search'] {

@@ -50,7 +50,7 @@
   color: var(--ColorBlack);
 }
 
-.search-ui input[type='submit'] {
+.btnSearch {
   flex: 2.5;
 
   background-color: var(--ColorBlue);
