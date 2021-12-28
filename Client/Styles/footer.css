@@ -12,6 +12,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-left: 10px;
 }
 
 .footer-articleContainer {
@@ -20,13 +21,14 @@
 }
 
 .footer-itemTitle {
-  font-size: var(--d30px);
+  font-size: var(--d18px);
   font-weight: 700;
-  line-height: var(--d30px);
+  line-height: var(--d18px);
 }
 
 .footer-itemDesc {
-  font-size: var(--d20px);
+  font-size: var(--d16px);
   font-weight: 400;
-  line-height: var(--d20px);
+  line-height: var(--d16px);
+  padding-bottom: 5px;
 }

@@ -19,15 +19,16 @@
 
 .search-title {
   height: 100%;
-  font-size: var(--d32px);
-  line-height: var(--d32px);
+  font-size: var(--d24px);
+  line-height: var(--d24px);
   font-weight: 700;
 }
 
 .search-desc {
-  font-size: var(--d30px);
-  line-height: var(--d30px);
+  font-size: var(--d18px);
+  line-height: var(--d18px);
   font-weight: 500;
+  margin-top: 10px;
 }
 
 .search-ui {
@@ -47,8 +48,9 @@
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 
-  font-size: var(--d30px);
+  font-size: var(--d18px);
   color: var(--ColorBlack);
+  padding: 0 20px;
 }
 
 .btnSearch {
@@ -57,12 +59,14 @@
   background-color: var(--ColorBlue);
   color: var(--ColorWhite);
 
-  font-size: var(--d30px);
-  font-weight: var(--d30px);
+  font-size: var(--d18px);
+  font-weight: var(--d18px);
   font-weight: 600;
 
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+
+  padding: 0px 30px;
 
   border: none;
   outline: none;
@@ -72,6 +76,7 @@
 .moblie-search,
 .moblie-map {
   display: none;
+  font-size: var(--d18px);
 }
 
 .search-ui input[type='search'] {
@@ -83,8 +88,8 @@
   padding-left: 20px;
   border: 2px solid var(--ColorGray);
 
-  font-size: var(--d30px);
-  font-weight: var(--d30px);
+  font-size: var(--d20px);
+  font-weight: var(--d20px);
   font-weight: 600;
 
   color: var(--ColorBlack);

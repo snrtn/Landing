@@ -38,8 +38,8 @@ nav {
 }
 
 .gnb li a {
-  font-size: var(--d20px);
-  line-height: var(--d20px);
+  font-size: var(--d14px);
+  line-height: var(--d14px);
   position: relative;
   color: var(--FontBlack);
   display: inline-block;
@@ -58,7 +58,7 @@ nav {
   background-color: var(--ColorBlue);
   height: 2px;
   width: 0;
-  top: -51px;
+  top: -59px;
   transition: 0.5s;
   left: 50%;
   transform: translateX(-50%);

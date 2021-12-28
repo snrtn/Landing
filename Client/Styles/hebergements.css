@@ -24,6 +24,7 @@ html {
 }
 
 .hebergements-info i {
+  flex-shrink: 0;
   width: 20px;
   height: 20px;
   border: 1.5px solid var(--ColorShadow);
@@ -50,9 +51,9 @@ html {
 }
 
 .article-title {
-  font-size: var(--d32px);
+  font-size: var(--d24px);
   font-weight: 700;
-  line-height: var(--d32px);
+  line-height: var(--d24px);
 }
 
 /* ########## article1 ########## */
@@ -110,16 +111,17 @@ html {
 
 .article1-itemTitle {
   margin: 0;
-  font-size: var(--d20px);
+  font-size: var(--d18px);
   font-weight: 700;
-  line-height: var(--d20px);
-  margin-bottom: -3px;
+  line-height: var(--d18px);
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 .article1-itemDesc {
   margin: 0;
-  font-size: var(--d12px);
-  line-height: var(--d12px);
+  font-size: var(--d14px);
+  line-height: var(--d14px);
   font-weight: 500;
 }
 
@@ -151,7 +153,7 @@ html {
 .hebergements-article1 button {
   margin-top: 20px;
   margin-left: 10px;
-  font-size: var(--d30px);
+  font-size: var(--d20px);
   font-weight: 700;
   border: none;
 }
@@ -190,7 +192,7 @@ html {
 }
 
 .hebergements-article2 > div i {
-  font-size: var(--d32px);
+  font-size: var(--d18px);
   line-height: 45px;
   margin-right: 10px;
 }
@@ -242,7 +244,7 @@ html {
 
 .article2-itemTitle {
   margin: 0;
-  font-size: var(--d20px);
+  font-size: var(--d18px);
   font-weight: 700;
   margin-bottom: -3px;
 }

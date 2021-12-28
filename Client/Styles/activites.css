@@ -19,9 +19,10 @@ html {
 }
 
 .activites-info h1 {
-  font-size: var(--d32px);
+  font-size: var(--d24px);
   font-weight: 700;
-  line-height: var(--d32px);
+  line-height: var(--d24px);
+  margin-left: 10px;
 }
 
 .activites-container {
@@ -79,9 +80,9 @@ html {
 }
 
 .article-itemTitle {
-  font-size: var(--d20px);
+  font-size: var(--d18px);
   font-weight: 700;
-  line-height: var(--d20px);
+  line-height: var(--d18px);
 }
 
 .article-itemContainer:nth-child(1) .article-itemImage {
