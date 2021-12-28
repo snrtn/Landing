@@ -1,3 +1,4 @@
+@charset "utf-8";
 @import '../Variables/Variables.css';
 
 html {
@@ -18,9 +19,9 @@ html {
 }
 
 .activites-info h1 {
-  font-size: var(--FontUtra);
+  font-size: var(--d32px);
   font-weight: 700;
-  line-height: var(--LineHeightUtra);
+  line-height: var(--d32px);
 }
 
 .activites-container {
@@ -78,9 +79,9 @@ html {
 }
 
 .article-itemTitle {
-  font-size: var(--FontMiddle);
+  font-size: var(--d20px);
   font-weight: 700;
-  line-height: var(--LineHeightMiddle);
+  line-height: var(--d20px);
 }
 
 .article-itemContainer:nth-child(1) .article-itemImage {

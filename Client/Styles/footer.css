@@ -1,4 +1,5 @@
-@import "../Variables/Variables.css";
+@charset "utf-8";
+@import '../Variables/Variables.css';
 
 .footer {
   width: 100%;
@@ -19,13 +20,13 @@
 }
 
 .footer-itemTitle {
-  font-size: var(--FontBig);
+  font-size: var(--d30px);
   font-weight: 700;
-  line-height: var(--LineHeighBig);
+  line-height: var(--d30px);
 }
 
 .footer-itemDesc {
-  font-size: var(--FontMiddle);
+  font-size: var(--d20px);
   font-weight: 400;
-  line-height: var(--LineHeightMiddle);
+  line-height: var(--d20px);
 }

@@ -1,3 +1,4 @@
+@charset "utf-8";
 @import '../Variables/Variables.css';
 
 html {
@@ -35,8 +36,8 @@ html {
 }
 
 .hebergements-info p {
-  font-size: var(--FontSmall);
-  line-height: var(--LineHeightSmall);
+  font-size: var(--d14px);
+  line-height: var(--d14px);
   line-height: 20px;
   font-weight: 500;
   margin-left: 10px;
@@ -49,9 +50,9 @@ html {
 }
 
 .article-title {
-  font-size: var(--FontUtra);
+  font-size: var(--d32px);
   font-weight: 700;
-  line-height: var(--LineHeightUtra);
+  line-height: var(--d32px);
 }
 
 /* ########## article1 ########## */
@@ -109,16 +110,16 @@ html {
 
 .article1-itemTitle {
   margin: 0;
-  font-size: var(--FontMiddle);
+  font-size: var(--d20px);
   font-weight: 700;
-  line-height: var(--LineHeightMiddle);
+  line-height: var(--d20px);
   margin-bottom: -3px;
 }
 
 .article1-itemDesc {
   margin: 0;
-  font-size: var(--FontSmall);
-  line-height: var(--LineHeightSmall);
+  font-size: var(--d12px);
+  line-height: var(--d12px);
   font-weight: 500;
 }
 
@@ -150,7 +151,7 @@ html {
 .hebergements-article1 button {
   margin-top: 20px;
   margin-left: 10px;
-  font-size: var(--FontBig);
+  font-size: var(--d30px);
   font-weight: 700;
   border: none;
 }
@@ -189,7 +190,7 @@ html {
 }
 
 .hebergements-article2 > div i {
-  font-size: var(--FontUtra);
+  font-size: var(--d32px);
   line-height: 45px;
   margin-right: 10px;
 }
@@ -241,15 +242,15 @@ html {
 
 .article2-itemTitle {
   margin: 0;
-  font-size: var(--FontMiddle);
+  font-size: var(--d20px);
   font-weight: 700;
   margin-bottom: -3px;
 }
 
 .article2-itemDesc {
   margin: 0;
-  font-size: var(--FontSmall);
-  line-height: var(--LineHeightSmall);
+  font-size: var(--d14px);
+  line-height: var(--d14px);
   font-weight: 500;
   padding-top: 5px;
 }

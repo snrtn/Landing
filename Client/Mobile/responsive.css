@@ -1,7 +1,7 @@
 @import '../Variables/Variables.css';
 
 /* ########## La version mobile et Tablette doit être séparée ########## */
-@media all and (min-width: 280px) and (max-width: 1280px) {
+@media all and (min-width: 0px) and (max-width: 1280px) {
   #app-container {
     width: auto !important;
     height: 100%;
@@ -41,8 +41,8 @@
     text-align: center;
   }
   .gnb li a {
-    font-size: var(--MFontSmall);
-    line-height: var(--MLineHeightSmall);
+    font-size: var(--m14px);
+    line-height: var(--m14px);
     padding: 0px 0px;
     border-bottom: 3px solid var(--ColorGray);
     padding-bottom: 12px;
@@ -70,14 +70,14 @@
   }
 
   .search-title {
-    font-size: var(--MFontBig);
+    font-size: var(--m30px);
     line-height: 1;
     padding-right: 30px;
   }
 
   .search-desc {
-    font-size: var(--MFontSSmall);
-    line-height: var(--MLineHeightUtra);
+    font-size: var(--m12px);
+    line-height: var(--m12px);
   }
 
   .search-ui {
@@ -110,8 +110,8 @@
     background-color: var(--ColorWhite);
     color: var(--ColorWhite);
 
-    font-size: var(--FontBig);
-    font-weight: var(--LineHeightBig);
+    font-size: var(--m30px);
+    font-weight: var(--m30px);
     font-weight: 600;
 
     border-top-right-radius: 15px;
@@ -145,8 +145,8 @@
 
     border: none;
 
-    font-size: var(--MFontSmall);
-    font-weight: var(--LineHeightBig);
+    font-size: var(--m14px);
+    font-weight: var(--m14px);
   }
 
   .search-ui input[type='search']:hover {
@@ -164,7 +164,7 @@
   }
 
   .filters p {
-    font-size: var(--MFontMiddle);
+    font-size: var(--m20px);
   }
 
   .icons {
@@ -179,7 +179,7 @@
   .icons li div i {
     width: 50px;
     height: 50px;
-    font-size: var(--MFontMiddle);
+    font-size: var(--m20px);
   }
 
   .icons li div span {
@@ -187,7 +187,7 @@
     padding-left: 5px;
     padding-left: 5px;
 
-    font-size: var(--MFontMiddle);
+    font-size: var(--m20px);
   }
 
   /* ########## hebergements ########## */
@@ -212,7 +212,7 @@
   }
 
   .hebergements-info p {
-    font-size: var(--MFontSmall);
+    font-size: var(--m14px);
   }
 
   .hebergements-container {
@@ -228,8 +228,8 @@
   }
 
   .article-title {
-    font-size: var(--MFontBig);
-    line-height: var(--MLineHeightMiddle);
+    font-size: var(--m30px);
+    line-height: var(--m30px);
     margin-top: 10px !important;
     margin-bottom: 5px !important;
     margin-left: 0px !important;
@@ -272,7 +272,7 @@
   .hebergements-article1 button {
     background-color: var(--ColorWhite);
     margin-left: -5px;
-    font-size: var(--MFontMiddle);
+    font-size: var(--m20px);
   }
 
   /* ########## article2 ########## */
@@ -384,18 +384,6 @@
   }
 }
 
-@media screen and (min-width: 1390px) and (max-width: 1480px) {
-  .article1-item {
-    width: 245px;
-    height: 200px;
-  }
-
-  .article1-itemImage {
-    width: 230px;
-    height: 110px;
-  }
-}
-
 @media screen and (min-width: 1280px) and (max-width: 1390px) {
   .hebergements-article1 {
     padding: 0px 0px;
@@ -417,6 +405,18 @@
 
   .article1-itemImage {
     width: 205px;
+    height: 110px;
+  }
+}
+
+@media screen and (min-width: 1390px) and (max-width: 1480px) {
+  .article1-item {
+    width: 245px;
+    height: 200px;
+  }
+
+  .article1-itemImage {
+    width: 230px;
     height: 110px;
   }
 }

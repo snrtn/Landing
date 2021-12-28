@@ -1,3 +1,4 @@
+@charset "utf-8";
 @import '../Variables/Variables.css';
 
 header {
@@ -37,8 +38,8 @@ nav {
 }
 
 .gnb li a {
-  font-size: var(--FontMiddle);
-  line-height: var(--LineHeightMiddle);
+  font-size: var(--d20px);
+  line-height: var(--d20px);
   position: relative;
   color: var(--FontBlack);
   display: inline-block;

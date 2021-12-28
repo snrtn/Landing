@@ -7,32 +7,39 @@
   --ColorGray: #f2f2f2;
   --ColorShadow: #e7e7e7;
 
-  --FontUtra: 1.5rem;
-  --FontBig: 1.125rem;
-  --FontMiddle: 1rem;
-  --FontSmall: 0.875rem;
-
-  --LineHeightUtra: 2.625rem;
-  --LineHeightBig: 1.969rem;
-  --LineHeightMiddle: 1.75rem;
-  --LineHeightSmall: 1.531rem;
-
   --star-size: 0.719rem;
   --star-color: #d9d9d9;
   --star-background: #0065fc;
 
   --mini-icon: 0.519rem;
 
-  /* ########## EM pour mobile ########## */
-  /* https://zellwk.com/blog/media-query-units/ */
-  --MFontUtra: 1.714em;
-  --MFontBig: 1.285em;
-  --MFontMiddle: 1.142em;
-  --MFontSmall: 1em;
-  --MFontSSmall: 0.741em;
+  /* DesktopFontSize */
+  --d10px: '0.63rem';
+  --d12px: '0.75rem';
+  --d14px: '0.88rem';
+  --d16px: '1rem';
+  --d18px: '1.13rem';
+  --d20px: '1.25rem';
+  --d24px: '1.5rem';
+  --d30px: '1.88rem';
+  --d32px: '2rem';
+  --d36px: '2.25rem';
+  --d38px: '2.38rem';
+  --d40px: '2.5rem';
+  --d42px: '2.63rem';
 
-  --MLineHeightUtra: 3em;
-  --MLineHeightBig: 2em;
-  --MLineHeightMiddle: 1.75em;
-  --MLineHeightSmall: 1.749em;
+  /* MobileFontSize */
+  --m10px: '0.63em';
+  --m12px: '0.75em';
+  --m14px: '0.88em';
+  --m16px: '1em';
+  --m18px: '1.13em';
+  --m20px: '1.25em';
+  --m24px: '1.5em';
+  --m30px: '1.88em';
+  --m32px: '2em';
+  --m36px: '2.25em';
+  --m38px: '2.38em';
+  --m40px: '2.5em';
+  --m42px: '2.63em';
 }
