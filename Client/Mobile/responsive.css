@@ -419,12 +419,151 @@
   }
 }
 
-@media all and (min-width: 768px) and (max-width: 992px) {
+/* ########## tablet ########## */
+/* ########## tablet ########## */
+/* ########## tablet ########## */
+/* ########## tablet ########## */
+/* ########## tablet ########## */
+
+@media all and (min-width: 768px) and (max-width: 1280px) {
   #app-container {
     width: auto !important;
     height: 100%;
     display: flex;
     flex-direction: column;
+  }
+
+  /* ########## header ########## */
+  /* ########## header ########## */
+  /* ########## header ########## */
+  header {
+    height: 135px;
+    padding: 0px 0px;
+  }
+  nav {
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+    position: relative;
+    background-color: var(--ColorWhite);
+    z-index: 0;
+    padding-left: 0px;
+  }
+  .logo-img {
+    width: 95px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .gnb {
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 0px;
+  }
+  .gnb li {
+    width: 100%;
+    text-align: center;
+  }
+  .gnb li a {
+    font-size: var(--m14px);
+    line-height: var(--m14px);
+    padding: 0px 0px;
+    border-bottom: 3px solid var(--ColorGray);
+    padding-bottom: 12px;
+  }
+  .gnb li a:before {
+    height: 3px;
+    top: 24.5px;
+  }
+  .gnb li a:hover:before {
+    width: 100%;
+  }
+
+  /* ########## search ########## */
+  /* ########## search ########## */
+  /* ########## search ########## */
+
+  .search {
+    width: 100%;
+    margin-top: 0px;
+    padding: 0px 10px;
+  }
+
+  .search-info {
+    height: auto;
+  }
+
+  .search-title {
+    font-size: var(--m20px);
+    line-height: 1;
+    padding-right: 30px;
+  }
+
+  .search-desc {
+    font-size: var(--m12px);
+    line-height: var(--m12px);
+  }
+
+  .search-ui {
+    width: 100%;
+    flex-direction: row;
+    height: 57px;
+    border: 2px solid var(--ColorGray);
+    border-radius: 15px;
+  }
+
+  .search-icon {
+    display: none;
+  }
+
+  .moblie-map {
+    display: block;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    background-color: var(--ColorGray);
+    color: var(--ColorBlack);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .btnSearch {
+    flex: 0;
+    width: 55px;
+    height: 55px;
+
+    background-color: var(--ColorWhite);
+  }
+
+  .btnSearch span {
+    display: none;
+  }
+
+  .moblie-search {
+    display: block;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px;
+    background-color: var(--ColorBlue);
+    color: var(--ColorWhite);
+    border-radius: 15px;
+    float: right;
+    margin-right: -30px;
+  }
+
+  .search-ui input[type='search'] {
+    width: 100%;
+
+    border: none;
+
+    font-size: var(--m16px);
+    font-weight: var(--m16px);
+  }
+
+  .search-ui input[type='search']:hover {
+    border: none;
   }
 
   /* ########## filters ########## */
@@ -597,6 +736,78 @@
     line-height: var(--m12px);
   }
 
+  /* ########## activites ########## */
+  /* ########## activites ########## */
+  /* ########## activites ########## */
+
+  .activites-section-container {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: 0 20px;
+  }
+
+  .activites {
+    width: 100%;
+    height: 100%;
+  }
+
+  .activites-container {
+    flex-direction: column;
+  }
+  .activites-container .article-itemContainer:nth-child(2) {
+    margin-top: 30px;
+  }
+  .activites-container .article-itemContainer:nth-child(3) {
+    margin-top: 30px;
+  }
+  .activites-container
+    .article-itemContainer:nth-child(4)
+    .article-item:nth-child(1) {
+    margin-top: 30px;
+  }
+
+  .activites-info h1 {
+    margin-left: -5px;
+    font-size: var(--m20px);
+    line-height: var(--m20px);
+  }
+
+  .article-itemContainer {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .article-itemTitle {
+    font-size: var(--m18px);
+    line-height: var(--m18px);
+  }
+
+  .article-itemImage {
+    height: 140px;
+  }
+
+  .article-itemContainer:nth-child(2)
+    .article-item:nth-child(1)
+    .article-itemImage {
+    height: 140px;
+  }
+  .article-itemContainer:nth-child(2)
+    .article-item:nth-child(2)
+    .article-itemImage {
+    height: 140px;
+  }
+
+  .article-itemContainer:nth-child(4)
+    .article-item:nth-child(1)
+    .article-itemImage {
+    height: 140px;
+  }
+  .article-itemContainer:nth-child(4)
+    .article-item:nth-child(2)
+    .article-itemImage {
+    height: 140px;
+  }
+
   /* ########## footer ########## */
   /* ########## footer ########## */
   /* ########## footer ########## */
@@ -627,103 +838,6 @@
     font-weight: 400;
     line-height: var(--m18px);
     padding-bottom: 5px;
-  }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1180px) {
-  .hebergements-article1 {
-    padding: 0px 0px;
-  }
-
-  .hebergements-article1 h1 {
-    margin-left: 30px !important;
-    margin-top: 30px !important;
-  }
-
-  .article1-itemContainer {
-    padding: 30px 30px;
-  }
-
-  .article1-item {
-    width: 125px;
-    height: 200px;
-  }
-
-  .article1-itemImage {
-    width: 115px;
-    height: 100px;
-  }
-
-  .article1-itemTitle {
-    margin: 0;
-    font-size: var(--m16px);
-    font-weight: 700;
-    line-height: var(--m16px);
-    margin-bottom: 5px;
-    margin-top: 10px;
-  }
-
-  .article1-itemDesc {
-    margin: 0;
-    font-size: var(--d14px);
-    line-height: var(--d14px);
-    font-weight: 500;
-  }
-  /* ########## footer ########## */
-  /* ########## footer ########## */
-  /* ########## footer ########## */
-
-  .footer {
-    height: 100%;
-    margin-top: 50px;
-  }
-
-  .footer-container {
-    flex-direction: column;
-    padding-top: 20px;
-  }
-
-  .footer-articleContainer {
-    width: 100%;
-    padding: 10px 20px;
-  }
-
-  .footer-itemTitle {
-    font-size: var(--m20px);
-    font-weight: 700;
-    line-height: var(--m20px);
-  }
-
-  .footer-itemDesc {
-    font-size: var(--m18px);
-    font-weight: 400;
-    line-height: var(--m18px);
-    padding-bottom: 5px;
-  }
-}
-
-@media screen and (min-width: 1180px) and (max-width: 1280px) {
-  .hebergements-article1 {
-    padding: 0px 0px;
-  }
-
-  .hebergements-article1 h1 {
-    margin-left: 30px !important;
-    margin-top: 30px !important;
-  }
-
-  .article1-itemContainer {
-    padding: 10px 10px;
-  }
-
-  .article1-item {
-    width: 190px;
-    height: 200px;
-  }
-
-  .article1-itemImage {
-    width: 180px;
-    height: 100px;
   }
 }
 
