@@ -49,6 +49,11 @@
   color: var(--ColorWhite);
 }
 
+.icons li input[type='checkbox']:hover + div {
+  background-color: var(--ColorBlue);
+  color: var(--ColorWhite);
+}
+
 .icons li div {
   height: 50px;
   margin: 0px 10px;
