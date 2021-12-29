@@ -3,7 +3,7 @@
   height: 100%;
 }
 
-/* ########## SlideBar ########## */
+/* ########## ScrollBar ########## */
 body::-webkit-scrollbar {
   width: 12px;
 }
