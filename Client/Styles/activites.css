@@ -37,7 +37,6 @@ html {
   flex-direction: column;
   justify-content: space-between;
   padding: 0px 15px 0px 15px;
-  /* border: 1px solid #000; */
 }
 
 .article-item {
